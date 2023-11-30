@@ -49,7 +49,7 @@ export default function Intro() {
         </div>
       </div>
 
-      <motion.p
+      <motion.h1
         className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-3xl"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
@@ -57,22 +57,27 @@ export default function Intro() {
           type: 'spring',
           stiffness: 125,
           delay: 0.1,
-          duration: 0.5,
+          duration: 0.3,
         }}
       >
-        <span className="font-bold">Hello, I'm Suvigya Mishra.</span> I'm a{' '}
-        <span className="font-bold">Full-Stack Web Developer</span> with{' '}
-        <span className="font-bold">1+ years</span> of experience. I enjoy
-        building <span className="italic">websites & web apps</span>. My focus
-        is <span className="underline">MERN Stack | Next.js | Tailwind</span>
-      </motion.p>
+        <span className="font-bold">Hello, I'm Suvigya Mishra.</span>{' '}
+        I'm a{' '}
+        <span className="font-bold">Full-Stack Web Developer</span>{' '}
+        with <span className="font-bold">1+ years</span> of
+        experience. I enjoy building{' '}
+        <span className="italic">websites & web apps</span>. My focus
+        is{' '}
+        <span className="underline">
+          MERN Stack | Next.js | Tailwind
+        </span>
+      </motion.h1>
 
       <motion.div
         className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 font-medium"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{
-          delay: 0.1,
+          delay: 0.2,
         }}
       >
         <Link

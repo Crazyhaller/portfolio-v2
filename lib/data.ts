@@ -74,24 +74,14 @@ export const projectsData = [
   },
   {
     title: 'E-Social',
-    description: `This app was built using MERN Stack, Redux, and Material UI. It is a
-      social media app that allows users to post interesting events that
-      happened in their lives. Users can like and comment on each
-      other&apos;s posts. The app also has a search feature that allows
-      users to search for posts by title. The app also has a feature that
-      allows users to upload images to their posts.`,
+    description: `
+    Built with MERN Stack, Redux, and Material UI, this social media app enables users to share life events through posts, engaging with likes and comments. The app includes a search feature for post titles and allows users to upload images to enhance their posts.`,
     tags: ['MERN Stack', 'Redux', 'Material UI'],
     imageUrl: esocial,
   },
   {
     title: 'House Marketplace',
-    description: `This app was built using React JS and is hosted on Firebase. Users
-      are able to search properties on sale or rent and can list their own
-      property for the same. It also has a map feature that shows the
-      location of the property which was implemented using Leaflet and
-      Geocoding API. This app is also responsive for mobile devices. It
-      also has authetication feature using Google oAuth. The backend is
-      built using Firebase and Firestore.`,
+    description: `Built with React JS and hosted on Firebase, this property marketplace app allows users to search and list properties for sale or rent. It features a map displaying property locations using Leaflet and Geocoding API. The app is responsive for mobile devices and includes Google OAuth for authentication. The backend is implemented with Firebase and Firestore.`,
     tags: ['React JS', 'Firebase', 'Leaflet', 'Geocoding API'],
     imageUrl: housemarketplace,
   },
@@ -106,30 +96,13 @@ export const projectsData = [
   },
   {
     title: 'Shop Wave',
-    description: `This app was built using MERN Stack, Redux, PayPal and
-      React-Bootstrap. It is an e-commerce app that allows users to add
-      items to their cart and checkout using PayPal. Users can also add
-      items to the store and edit or delete those items. It also has a
-      search feature that allows users to search for items by name. It
-      also includes complete user authentication and authorization along
-      with Admin privileges. Users can also leave reviews for items and
-      can pay for items using PayPal.`,
+    description: `Built with MERN Stack, Redux, PayPal, and React-Bootstrap, this e-commerce app enables users to add items to their cart, checkout with PayPal, and manage their store inventory. The app includes a search feature for item names, complete user authentication, authorization, and Admin privileges. Users can leave reviews and make payments using PayPal.`,
     tags: ['MERN Stack', 'Redux', 'PayPal', 'React-Bootstrap'],
     imageUrl: shopwave,
   },
   {
     title: 'Thread-X',
-    description: `This app was built using Next.js, Typescript, Clerk, TailwindCSS. It
-      is a social media app that allows users to post interesting events
-      that happened in their lives. Users can like and comment on each
-      other&apos;s posts. The app also has a search feature that allows
-      users to search for posts by title. The app also has a feature that
-      allows users to upload images to their posts. It uses the Clerk
-      authentication service to handle user authentication and
-      authorization along with its own Webhook. It also uses TailwindCSS
-      for styling. It also has a feature of creating communities and
-      joining communities. Users can also create posts in communities and
-      comment on posts in communities.`,
+    description: `This social media app, built with Next.js, Typescript, Clerk, and TailwindCSS, enables users to share life events with posts, including images. Featuring a search function, users can find posts by title. The app utilizes Clerk for authentication, authorization, and its Webhook, and employs TailwindCSS for styling. Additionally, users can create and join communities, posting and commenting within them.`,
     tags: ['Next.js', 'TypeScript', 'Clerk', 'TailwindCSS'],
     imageUrl: threadx,
   },
