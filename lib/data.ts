@@ -57,11 +57,8 @@ export const experiencesData = [
 export const projectsData = [
   {
     title: 'Best Deal',
-    description: `This app was built using Next.js, Typescript, Bright Data,
-    TailwindCSS, Cheerio and Nodemailer. The app is a web scraper that
-    scrapes the Amazon website for the best deals on products. The app
-    then sends an email to the user with the best deals on products that
-    they are interested in.`,
+    description: `The app is a web scraper that
+    scrapes the Amazon website for the best deals on products.`,
     tags: [
       'Next.js',
       'TypeScript',
@@ -75,34 +72,33 @@ export const projectsData = [
   {
     title: 'E-Social',
     description: `
-    Built with MERN Stack, Redux, and Material UI, this social media app enables users to share life events through posts, engaging with likes and comments. The app includes a search feature for post titles and allows users to upload images to enhance their posts.`,
+    This social media app enables users to share life events through posts, engaging with likes and comments.`,
     tags: ['MERN Stack', 'Redux', 'Material UI'],
     imageUrl: esocial,
   },
   {
     title: 'House Marketplace',
-    description: `Built with React JS and hosted on Firebase, this property marketplace app allows users to search and list properties for sale or rent. It features a map displaying property locations using Leaflet and Geocoding API. The app is responsive for mobile devices and includes Google OAuth for authentication. The backend is implemented with Firebase and Firestore.`,
+    description: `This property marketplace app allows users to search and list properties for sale or rent.`,
     tags: ['React JS', 'Firebase', 'Leaflet', 'Geocoding API'],
     imageUrl: housemarketplace,
   },
   {
     title: 'Project Manager',
-    description: `This app was built using MERN Stack, GraphQL, and React-Bootstrap.
+    description: `
       It is a project management app that allows users to create projects
-      and add tasks to those projects. Users can also add other users to
-      their projects.`,
+      and add tasks to those projects.`,
     tags: ['MERN Stack', 'GraphQL', 'React-Bootstrap'],
     imageUrl: projectmanager,
   },
   {
     title: 'Shop Wave',
-    description: `Built with MERN Stack, Redux, PayPal, and React-Bootstrap, this e-commerce app enables users to add items to their cart, checkout with PayPal, and manage their store inventory. The app includes a search feature for item names, complete user authentication, authorization, and Admin privileges. Users can leave reviews and make payments using PayPal.`,
+    description: `This e-commerce app enables users to add items to their cart, checkout with PayPal, and manage their store inventory.`,
     tags: ['MERN Stack', 'Redux', 'PayPal', 'React-Bootstrap'],
     imageUrl: shopwave,
   },
   {
     title: 'Thread-X',
-    description: `This social media app, built with Next.js, Typescript, Clerk, and TailwindCSS, enables users to share life events with posts, including images. Featuring a search function, users can find posts by title. The app utilizes Clerk for authentication, authorization, and its Webhook, and employs TailwindCSS for styling. Additionally, users can create and join communities, posting and commenting within them.`,
+    description: `It enables users to share life events with posts, including images. Additionally, users can create and join communities, posting and commenting within them.`,
     tags: ['Next.js', 'TypeScript', 'Clerk', 'TailwindCSS'],
     imageUrl: threadx,
   },
