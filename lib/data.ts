@@ -79,7 +79,7 @@ export const projectsData = [
   {
     title: 'House Marketplace',
     description: `This property marketplace app allows users to search and list properties for sale or rent.`,
-    tags: ['React JS', 'Firebase', 'Leaflet', 'Geocoding API'],
+    tags: ['React.js', 'Firebase', 'Leaflet', 'Geocoding API'],
     imageUrl: housemarketplace,
   },
   {
