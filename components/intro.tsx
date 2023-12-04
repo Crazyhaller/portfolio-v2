@@ -9,9 +9,11 @@ import { BsArrowRight, BsLinkedin } from 'react-icons/bs'
 import { HiDownload } from 'react-icons/hi'
 import { FaGithubSquare } from 'react-icons/fa'
 import { useSectionInView } from '@/lib/hooks'
+import { useActiveSectionContext } from '@/context/activeSectionContext'
 
 export default function Intro() {
   const { ref } = useSectionInView('Home', 0.5)
+  const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext()
 
   return (
     <section
@@ -85,13 +87,17 @@ export default function Intro() {
         <Link
           href="#contact"
           className="group bg-gray-900 text-white px-5 py-5 flex items-center gap-2 rounded-full outline-none focus:scale-105 hover:scale-105 hover:bg-gray-950 active:scale-95 transition"
+          onClick={() => {
+            setActiveSection('Contact')
+            setTimeOfLastClick(Date.now())
+          }}
         >
           Contact Me{' '}
           <BsArrowRight className="group-hover:translate-x-1 transition" />
         </Link>
 
         <a
-          className="group bg-white px-5 py-5 flex items-center gap-2 rounded-full outline-none focus:scale-105 hover:scale-105 active:scale-95 transition cursor-pointer border border-black/10"
+          className="group bg-white px-5 py-5 flex items-center gap-2 rounded-full outline-none focus:scale-105 hover:scale-105 active:scale-95 transition cursor-pointer borderBlack"
           href="/CV.pdf"
           download
         >
@@ -100,7 +106,7 @@ export default function Intro() {
         </a>
 
         <a
-          className="bg-white p-4 text-slate-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer border border-black/10 dark:bg-white/10 dark:text-white/60"
+          className="bg-white p-4 text-slate-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
           href="https://www.linkedin.com/in/suvigyamishra"
           target="_blank"
         >
@@ -108,7 +114,7 @@ export default function Intro() {
         </a>
 
         <a
-          className="bg-white p-4 text-slate-700 flex items-center gap-2 text-[1.15rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer border border-black/10 dark:bg-white/10 dark:text-white/60"
+          className="bg-white p-4 text-slate-700 flex items-center gap-2 text-[1.15rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
           href="https://github.com/Crazyhaller"
           target="_blank"
         >
