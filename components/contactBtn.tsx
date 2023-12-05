@@ -7,7 +7,7 @@ export default function ContactBtn() {
 
   return (
     <button
-      className="group flex items-center justify-center gap-2 h-[3rem] w-[8rem] bg-slate-900 text-white rounded-full outline-none transition-all focus:scale-105 hover:scale-105 active:scale-95 hover:bg-slate-950 disabled:scale-100 disabled:opacity-65"
+      className="group flex items-center justify-center gap-2 h-[3rem] w-[8rem] bg-gray-900 text-white rounded-full outline-none transition-all focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 dark:bg-white dark:hover:bg-slate-500 dark:bg-opacity-10 disabled:scale-100 disabled:bg-opacity-65"
       type="submit"
       disabled={pending}
     >

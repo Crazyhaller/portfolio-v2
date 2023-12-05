@@ -30,8 +30,9 @@ export default function Header() {
             >
               <Link
                 className={clsx(
-                  'flex w-full items-center justify-center px-3 py-3 hover:text-slate-950 transition',
-                  activeSection === link.name && 'text-slate-950'
+                  'flex w-full items-center justify-center px-3 py-3 hover:text-slate-950 dark:text-slate-400 dark:hover:text-slate-200 transition',
+                  activeSection === link.name &&
+                    'text-slate-950 dark:text-slate-200'
                 )}
                 href={link.hash}
                 onClick={() => {
@@ -42,7 +43,7 @@ export default function Header() {
                 {link.name}
                 {activeSection === link.name && (
                   <motion.span
-                    className="bg-slate-100 rounded-full absolute inset-0 -z-10"
+                    className="bg-slate-100 rounded-full absolute inset-0 -z-10 dark:bg-slate-800"
                     layoutId="activeSection"
                     transition={{
                       type: 'spring',

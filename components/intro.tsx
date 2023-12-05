@@ -43,7 +43,7 @@ export default function Intro() {
             />
           </motion.div>
           <motion.span
-            className="absolute bottom-0 right-0  text-3xl"
+            className="absolute bottom-0 right-0 text-2xl"
             initial={{ opacity: 0, scale: 0 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{
@@ -97,7 +97,7 @@ export default function Intro() {
         </Link>
 
         <a
-          className="group bg-white px-5 py-5 flex items-center gap-2 rounded-full outline-none focus:scale-105 hover:scale-105 active:scale-95 transition cursor-pointer borderBlack"
+          className="group bg-white px-5 py-5 flex items-center gap-2 rounded-full outline-none focus:scale-105 hover:scale-105 active:scale-95 transition cursor-pointer borderBlack dark:bg-white/10 dark:hover:text-white/90"
           href="/CV.pdf"
           download
         >
@@ -106,7 +106,7 @@ export default function Intro() {
         </a>
 
         <a
-          className="bg-white p-4 text-slate-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+          className="bg-white p-4 text-slate-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60 dark:hover:text-white/90"
           href="https://www.linkedin.com/in/suvigyamishra"
           target="_blank"
         >
@@ -114,7 +114,7 @@ export default function Intro() {
         </a>
 
         <a
-          className="bg-white p-4 text-slate-700 flex items-center gap-2 text-[1.15rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+          className="bg-white p-4 text-slate-700 flex items-center gap-2 text-[1.15rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60 dark:hover:text-white/90"
           href="https://github.com/Crazyhaller"
           target="_blank"
         >
