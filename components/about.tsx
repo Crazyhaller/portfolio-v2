@@ -39,10 +39,10 @@ export default function About() {
       </p>
 
       <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        football, listening to music, play video games and watch YouTube. I also
-        enjoy{' '}
-        <span className="font-medium">
+        <span className="italic font-medium">When I'm not coding</span>, I enjoy
+        playing football, listening to music, play video games and watch
+        YouTube. I also enjoy{' '}
+        <span>
           listening to podcasts, read articles and stuff and watch doumentaries
           about different things
         </span>
