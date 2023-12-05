@@ -40,7 +40,7 @@ export const experiencesData = [
     title: 'Web Developer Intern',
     location: 'Remote',
     description:
-      'I worked as a web developer for 2 months where I worked on multiple Frotend projects. I also upskilled to the Full Stack.',
+      'I worked as a web developer for 2 months where I worked on multiple Frontend projects. I also upskilled to the Full Stack Development.',
     icon: React.createElement(CgWorkAlt),
     date: 'Dec 2022 - Jan 2023',
   },
@@ -48,7 +48,7 @@ export const experiencesData = [
     title: 'Full-Stack Developer Intern',
     location: 'Remote',
     description:
-      'I worked as a full-stack developer for 4 and a half months on a project with the Dev team to design and build a complete web platform for the organization. I worked on UI/UX, Frotend and Backend development of the project.',
+      'I worked as a full-stack developer for 4 and a half months on a project with the Dev team to design and build a complete web platform for the organization. I worked on UI/UX, Frontend and Backend development of the project.',
     icon: React.createElement(FaReact),
     date: 'May 2023 - Sep 2023',
   },
