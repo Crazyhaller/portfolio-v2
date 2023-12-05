@@ -98,7 +98,7 @@ export const projectsData = [
   },
   {
     title: 'Thread-X',
-    description: `It enables users to share life events with posts, including images. Additionally, users can create and join communities, posting and commenting within them.`,
+    description: `It enables users to share life events with posts, including images. Users can also create and join communities, posting and commenting within them.`,
     tags: ['Next.js', 'TypeScript', 'Clerk', 'TailwindCSS'],
     imageUrl: threadx,
   },
