@@ -111,7 +111,7 @@ export const skillsData = [
   'JavaScript',
   'TypeScript',
   'React.js',
-  'Redux',
+  'Redux Toolkit',
   'Next.js',
   'Node.js',
   'MongoDB',
