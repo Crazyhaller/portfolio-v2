@@ -24,13 +24,12 @@ export default function About() {
         <span className="font-medium">IT</span>, I decided to start my journey
         for programming / development. I enrolled in an online course and
         learned <span className="font-medium">Full-Stack web development</span>.{' '}
-        <span className="italic">My favorite part of programming</span> is the
-        designing and building projcts. I{' '}
+        <span className="italic">My favorite part of programming</span> is designing and building projcts. I{' '}
         <span className="underline">love</span> the feeling of finally
         completing the project or solving errors and bugs during the process. My
         core stack is{' '}
         <span className="font-medium">
-          React, Next.js, Tailwind, Node.js, and MongoDB
+          React.js, Next.js, Tailwind, Node.js, and MongoDB
         </span>
         . I am also familiar with TypeScript and the programming language Java.
         I am always looking to learn new technologies. I am currently looking
