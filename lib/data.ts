@@ -57,6 +57,7 @@ export const experiencesData = [
 export const projectsData = [
   {
     title: 'Best Deal',
+    link: 'bestdeal',
     description: `The app is a web scraper that
     scrapes the Amazon website for the best deals on products.`,
     tags: [
@@ -71,6 +72,7 @@ export const projectsData = [
   },
   {
     title: 'E-Social',
+    link: 'esocial',
     description: `
     This social media app enables users to share life events through posts, engaging with likes and comments.`,
     tags: ['MERN Stack', 'Redux', 'Material UI'],
@@ -78,12 +80,14 @@ export const projectsData = [
   },
   {
     title: 'House Marketplace',
+    link: 'housemarketplace',
     description: `This property marketplace app allows users to search and list properties for sale or rent.`,
     tags: ['React.js', 'Firebase', 'Leaflet', 'Geocoding API'],
     imageUrl: housemarketplace,
   },
   {
     title: 'Project Manager',
+    link: 'projectmanager',
     description: `
       It is a project management app that allows users to create projects
       and add tasks to those projects.`,
@@ -92,12 +96,14 @@ export const projectsData = [
   },
   {
     title: 'Shop Wave',
+    link: 'shopwave',
     description: `This e-commerce app enables users to add items to their cart, checkout with PayPal, and manage their store inventory.`,
     tags: ['MERN Stack', 'Redux', 'PayPal', 'React-Bootstrap'],
     imageUrl: shopwave,
   },
   {
     title: 'Thread-X',
+    link: 'threadx',
     description: `It enables users to share life events with posts, including images. Users can also create and join communities, posting and commenting within them.`,
     tags: ['Next.js', 'TypeScript', 'Clerk', 'TailwindCSS'],
     imageUrl: threadx,

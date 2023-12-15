@@ -4,11 +4,14 @@ import { useRef } from 'react'
 import { projectsData } from '@/lib/data'
 import Image from 'next/image'
 import { motion, useScroll, useTransform } from 'framer-motion'
+import Link from 'next/link'
+import { BsArrowRight } from 'react-icons/bs'
 
 type ProjectProps = (typeof projectsData)[number]
 
 export default function Project({
   title,
+  link,
   description,
   tags,
   imageUrl,
@@ -49,6 +52,12 @@ export default function Project({
               </li>
             ))}
           </ul>
+          {/* <Link
+            className="flex items-center justify-center mt-2 sm:mt-4 bg-slate-800 hover:bg-slate-950 hover:scale-105 text-white w-28 rounded-lg"
+            href={`/${link}`}
+          >
+            More info <BsArrowRight className="ml-1" />
+          </Link> */}
         </div>
 
         <Image
