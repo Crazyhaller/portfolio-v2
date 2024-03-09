@@ -128,5 +128,4 @@ export const skillsData = [
   'Apollo GraphQL',
   'SQL',
   'MySQL',
-  'Java',
 ] as const
