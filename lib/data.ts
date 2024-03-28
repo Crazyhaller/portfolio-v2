@@ -117,7 +117,7 @@ export const skillsData = [
   'JavaScript',
   'TypeScript',
   'React.js',
-  'Redux Toolkit',
+  'Redux',
   'Next.js',
   'Node.js',
   'MongoDB',
@@ -128,4 +128,5 @@ export const skillsData = [
   'Apollo GraphQL',
   'SQL',
   'MySQL',
+  'C++',
 ] as const
