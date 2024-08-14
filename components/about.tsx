@@ -20,21 +20,24 @@ export default function About() {
       <SectionHeading>About Me</SectionHeading>
 
       <p className="mb-3">
-        While currently pursuing BTech degree in{' '}
-        <span className="font-medium">IT</span>, I decided to start my journey
-        for programming / development. I enrolled in an online course and
-        learned <span className="font-medium">Full-Stack web development</span>.{' '}
-        <span className="italic">My favorite part of programming</span> is designing and building projcts. I{' '}
+        A recent graduate with BTech degree in{' '}
+        <span className="font-medium">IT</span>. I started my journey for
+        programming / development during my 3rd year of college when I enrolled
+        in an online course and learned{' '}
+        <span className="font-medium">Full-Stack web development</span>.{' '}
+        <span className="italic">My favorite part of programming</span> is
+        designing and building projcts. I{' '}
         <span className="underline">love</span> the feeling of finally
         completing the project or solving errors and bugs during the process. My
         core stack is{' '}
         <span className="font-medium">
-          React.js, Next.js, Tailwind, Node.js, and MongoDB
+          Javascript, React.js, Next.js, Tailwind, Node.js, and MongoDB
         </span>
-        . I am also familiar with TypeScript and the programming language Java.
-        I am always looking to learn new technologies. I am currently looking
-        for a <span className="font-medium">full-time position</span> as a Full
-        Stack or Frontend Developer.
+        . I am also familiar with TypeScript and the programming languages like
+        C++ & Java. I am always looking to learn new technologies. I am
+        currently looking for a{' '}
+        <span className="font-medium">full-time position</span> as a Full Stack
+        or Frontend Developer.
       </p>
 
       <p>
