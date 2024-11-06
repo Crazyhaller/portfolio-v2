@@ -52,6 +52,13 @@ export const experiencesData = [
     icon: React.createElement(FaReact),
     date: 'May 2023 - Sep 2023',
   },
+  {
+    title: 'Software Engineer',
+    location: 'Remote',
+    description: 'Currently working',
+    icon: React.createElement(FaReact),
+    date: 'Nov 2024 - Present',
+  },
 ] as const
 
 export const projectsData = [
@@ -120,13 +127,11 @@ export const skillsData = [
   'Redux',
   'Next.js',
   'Node.js',
-  'MongoDB',
   'Express.js',
+  'MongoDB',
+  'SQL',
+  'PostgreSQL',
   'Git',
   'GitHub',
-  'GraphQL',
-  'Apollo GraphQL',
-  'SQL',
-  'MySQL',
-  'C++',
+  'Docker',
 ] as const
