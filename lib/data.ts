@@ -38,7 +38,7 @@ export const links = [
 export const experiencesData = [
   {
     title: 'Web Developer Intern',
-    location: 'Remote',
+    location: 'TwiLearn',
     description:
       'I worked as a web developer for 2 months where I worked on multiple Frontend projects. I also upskilled to the Full Stack Development.',
     icon: React.createElement(CgWorkAlt),
@@ -46,7 +46,7 @@ export const experiencesData = [
   },
   {
     title: 'Full-Stack Developer Intern',
-    location: 'Remote',
+    location: 'Metabees.in',
     description:
       'I worked as a full-stack developer for 4 and a half months on a project with the Dev team to design and build a complete web platform for the organization. I worked on UI/UX, Frontend and Backend development of the project.',
     icon: React.createElement(FaReact),
@@ -54,10 +54,10 @@ export const experiencesData = [
   },
   {
     title: 'Software Engineer',
-    location: 'Remote',
-    description: 'Currently working',
+    location: 'Parati',
+    description: "Led end-to-end frontend development for company's flagship AI-powered presentation builder used by 100s of users monthly, developing reusable components, dynamic pages, and optimized UI using React.js, TypeScript, and Tailwind CSS. •Integrated APIs and webhooks to enable real-time data communication, AI-driven slide generation, and seamless data flow, ensuring a responsive and interactive user experience. •Implemented Razorpay payment integration, handling secure transactions, subscription management, and webhook-driven event processing for a frictionless checkout experience.",
     icon: React.createElement(FaReact),
-    date: 'Nov 2024 - Present',
+    date: 'Nov 2024 - Feb 2025',
   },
 ] as const
 
