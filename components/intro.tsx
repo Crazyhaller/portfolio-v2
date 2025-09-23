@@ -71,9 +71,11 @@ export default function Intro() {
       >
         <span className="font-bold">Hello, I'm Suvigya Mishra.</span> I'm a{' '}
         <span className="font-bold">Full-Stack Web Developer</span> with{' '}
-        <span className="font-bold">3+ years</span> of hands-on experience. I
-        enjoy building <span className="italic">websites & web apps</span>. My
-        focus is{' '}
+        <span className="font-bold">3 years</span> of Hands-on,{' '}
+        <span className="font-bold">7 months</span> of Internship and{' '}
+        <span className="font-bold">3 months</span> of Professional Work
+        experience. I enjoy building{' '}
+        <span className="italic">websites & web apps</span>. My focus is{' '}
         <span className="underline">MERN Stack | Next.js | Tailwind</span>
       </motion.h1>
 

@@ -55,7 +55,8 @@ export const experiencesData = [
   {
     title: 'Software Engineer',
     location: 'Parati',
-    description: "Led end-to-end frontend development for company's flagship AI-powered presentation builder used by 100s of users monthly, developing reusable components, dynamic pages, and optimized UI using React.js, TypeScript, and Tailwind CSS. •Integrated APIs and webhooks to enable real-time data communication, AI-driven slide generation, and seamless data flow, ensuring a responsive and interactive user experience. •Implemented Razorpay payment integration, handling secure transactions, subscription management, and webhook-driven event processing for a frictionless checkout experience.",
+    description:
+      "Led end-to-end frontend development for company's flagship AI-powered presentation builder used by 100s of users monthly, developing reusable components, dynamic pages, and optimized UI using React.js, TypeScript, and Tailwind CSS. Integrated APIs and webhooks to enable real-time data communication, AI- driven slide generation, and seamless data flow, ensuring a responsive and interactive user experience. •Implemented Razorpay payment integration, handling secure transactions, subscription management, and webhook-driven event processing for a frictionless checkout experience. Implemented Razorpay payment integration, handling secure transactions, subscription management, and webhook-driven event processing for a frictionless checkout experience.",
     icon: React.createElement(FaReact),
     date: 'Nov 2024 - Feb 2025',
   },
@@ -133,5 +134,4 @@ export const skillsData = [
   'PostgreSQL',
   'Git',
   'GitHub',
-  'Docker',
 ] as const

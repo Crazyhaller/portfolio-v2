@@ -22,7 +22,7 @@ export default function About() {
       <p className="mb-3">
         A recent graduate with BTech degree in{' '}
         <span className="font-medium">IT</span>. I started my journey for
-        programming / development during my 3rd year of college when I enrolled
+        programming / development during my 2nd year of college when I enrolled
         in an online course and learned{' '}
         <span className="font-medium">Full-Stack web development</span>.{' '}
         <span className="italic">My favorite part of programming</span> is
@@ -34,22 +34,18 @@ export default function About() {
           Javascript, React.js, Next.js, Tailwind, Node.js, and MongoDB
         </span>
         . I am also familiar with TypeScript and the programming languages like
-        C++ & Java. I am always looking to learn new technologies. I am
+        C++, Java & Python. I am always looking to learn new technologies. I am
         currently looking for a{' '}
-        <span className="font-medium">full-time position</span> as a Full Stack
-        or Frontend Developer.
+        <span className="font-medium">full-time position</span> as a Frontend
+        Developer or Full Stack Developer.
       </p>
 
       <p>
         <span className="italic font-medium">When I'm not coding</span>, I enjoy
-        playing football, listening to music, play video games and watch
-        YouTube. I also enjoy{' '}
-        <span>
-          listening to podcasts, read articles and stuff and watch doumentaries
-          about different things
-        </span>
-        . I also want to learn mountain climbing and swimming in the future as I
-        am very fond of nature, mountains and water.
+        playing football, listening to music, trekking and watch YouTube and
+        documentaries. I also enjoy <span>listening to podcasts.</span>. I also
+        want to learn mountain climbing and swimming in the future as I am very
+        fond of nature, mountains and water.
       </p>
     </motion.section>
   )
