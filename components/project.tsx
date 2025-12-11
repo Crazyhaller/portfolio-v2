@@ -52,12 +52,14 @@ export default function Project({
               </li>
             ))}
           </ul>
-          {/* <Link
+          <Link
             className="flex items-center justify-center mt-2 sm:mt-4 bg-slate-800 hover:bg-slate-950 hover:scale-105 text-white w-28 rounded-lg"
-            href={`/${link}`}
+            href={`${link}`}
+            target="_blank"
+            rel="noopener noreferrer"
           >
             More info <BsArrowRight className="ml-1" />
-          </Link> */}
+          </Link>
         </div>
 
         <Image

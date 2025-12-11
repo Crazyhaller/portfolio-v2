@@ -7,6 +7,8 @@ import housemarketplace from '@/public/housemarketplace.png'
 import projectmanager from '@/public/project-manager.png'
 import shopwave from '@/public/shop-wave.png'
 import threadx from '@/public/thread-x.png'
+import healthee from '@/public/healthee.png'
+import stoxy from '@/public/stoxy.png'
 
 export const links = [
   {
@@ -65,7 +67,7 @@ export const experiencesData = [
 export const projectsData = [
   {
     title: 'Best Deal',
-    link: 'bestdeal',
+    link: 'https://best-deal-pi.vercel.app/',
     description: `The app is a web scraper that
     scrapes the Amazon website for the best deals on products.`,
     tags: [
@@ -80,7 +82,7 @@ export const projectsData = [
   },
   {
     title: 'E-Social',
-    link: 'esocial',
+    link: 'https://github.com/Crazyhaller/E-Social',
     description: `
     This social media app enables users to share life events through posts, engaging with likes and comments.`,
     tags: ['MERN Stack', 'Redux', 'Material UI'],
@@ -88,14 +90,14 @@ export const projectsData = [
   },
   {
     title: 'House Marketplace',
-    link: 'housemarketplace',
+    link: 'https://suvigyahousemarketplace.vercel.app/',
     description: `This property marketplace app allows users to search and list properties for sale or rent.`,
     tags: ['React.js', 'Firebase', 'Leaflet', 'Geocoding API'],
     imageUrl: housemarketplace,
   },
   {
     title: 'Project Manager',
-    link: 'projectmanager',
+    link: 'https://github.com/Crazyhaller/project-manager',
     description: `
       It is a project management app that allows users to create projects
       and add tasks to those projects.`,
@@ -104,17 +106,45 @@ export const projectsData = [
   },
   {
     title: 'Shop Wave',
-    link: 'shopwave',
+    link: 'https://suvigya-shop.vercel.app/',
     description: `This e-commerce app enables users to add items to their cart, checkout with PayPal, and manage their store inventory.`,
     tags: ['MERN Stack', 'Redux', 'PayPal', 'React-Bootstrap'],
     imageUrl: shopwave,
   },
   {
     title: 'Thread-X',
-    link: 'threadx',
+    link: 'https://github.com/Crazyhaller/thread-x',
     description: `It enables users to share life events with posts, including images. Users can also create and join communities, posting and commenting within them.`,
     tags: ['Next.js', 'TypeScript', 'Clerk', 'TailwindCSS'],
     imageUrl: threadx,
+  },
+  {
+    title: 'Healthee',
+    link: 'https://suvigya-healthee.vercel.app/',
+    description: `A modern medical appointment and patient management system.`,
+    tags: [
+      'Next.js',
+      'TypeScript',
+      'TailwindCSS',
+      'Appwrite',
+      'Sentry',
+      'Twilio',
+    ],
+    imageUrl: healthee,
+  },
+  {
+    title: 'Stoxy',
+    link: 'https://suvigya-stoxy.vercel.app/',
+    description: `Stock market dashboard with smart watchlists, real-time quotes, and market summaries.`,
+    tags: [
+      'Next.js',
+      'TypeScript',
+      'TailwindCSS',
+      'MongoDB',
+      'Inngest',
+      'Better Auth',
+    ],
+    imageUrl: stoxy,
   },
 ] as const
 
