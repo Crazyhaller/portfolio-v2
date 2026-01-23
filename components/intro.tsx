@@ -6,7 +6,7 @@ import photo from '@/public/photo.png'
 import { motion } from 'framer-motion'
 import Link from 'next/link'
 import { BsArrowRight, BsLinkedin } from 'react-icons/bs'
-import { HiDownload } from 'react-icons/hi'
+import { HiDownload, HiViewGrid } from 'react-icons/hi'
 import { FaGithubSquare } from 'react-icons/fa'
 import { useSectionInView } from '@/lib/hooks'
 import { useActiveSectionContext } from '@/context/activeSectionContext'
@@ -101,11 +101,11 @@ export default function Intro() {
 
         <a
           className="group bg-white px-5 py-5 flex items-center gap-2 rounded-full outline-none focus:scale-105 hover:scale-105 active:scale-95 transition cursor-pointer borderBlack dark:bg-white/10 dark:hover:text-white/90"
-          href="/CV.pdf"
-          download
+          href="https://drive.google.com/file/d/1uA7Wlb5bILKqN7RuwEVRnq1KVNOIx9kr/view?usp=drive_link"
+          target="_blank"
         >
-          Download CV{' '}
-          <HiDownload className="group-hover:translate-y-1 transition" />
+          View Resume{' '}
+          <HiViewGrid className="group-hover:translate-y-1 transition" />
         </a>
 
         <a
