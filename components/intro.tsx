@@ -108,21 +108,24 @@ export default function Intro() {
           <HiViewGrid className="group-hover:translate-y-1 transition" />
         </a>
 
-        <a
-          className="bg-white p-4 text-slate-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60 dark:hover:text-white/90"
-          href="https://www.linkedin.com/in/suvigyamishra"
-          target="_blank"
-        >
-          <BsLinkedin />
-        </a>
+        {/* Wrapper for the social icons */}
+        <div className="flex items-center gap-2">
+          <a
+            className="bg-white p-4 text-slate-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60 dark:hover:text-white/90"
+            href="https://www.linkedin.com/in/suvigyamishra"
+            target="_blank"
+          >
+            <BsLinkedin />
+          </a>
 
-        <a
-          className="bg-white p-4 text-slate-700 flex items-center gap-2 text-[1.15rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60 dark:hover:text-white/90"
-          href="https://github.com/Crazyhaller"
-          target="_blank"
-        >
-          <FaGithubSquare />
-        </a>
+          <a
+            className="bg-white p-4 text-slate-700 flex items-center gap-2 text-[1.15rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60 dark:hover:text-white/90"
+            href="https://github.com/Crazyhaller"
+            target="_blank"
+          >
+            <FaGithubSquare />
+          </a>
+        </div>
       </motion.div>
     </section>
   )
