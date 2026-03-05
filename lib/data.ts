@@ -9,6 +9,7 @@ import shopwave from '@/public/shop-wave.png'
 import threadx from '@/public/thread-x.png'
 import healthee from '@/public/healthee.png'
 import stoxy from '@/public/stoxy.png'
+import zuno from '@/public/zuno.png'
 
 export const links = [
   {
@@ -145,6 +146,20 @@ export const projectsData = [
       'Better Auth',
     ],
     imageUrl: stoxy,
+  },
+  {
+    title: 'Zuno',
+    link: 'https://suvigya-zuno.vercel.app/',
+    description: `A real-time sports monitoring dashboard that tracks matches, streams commentary, and provides live updates.`,
+    tags: [
+      'React.js',
+      'TypeScript',
+      'TailwindCSS',
+      'PostgreSQL',
+      'WebSocket',
+      'Arcjet',
+    ],
+    imageUrl: zuno,
   },
 ] as const
 
